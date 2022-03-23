@@ -1,0 +1,76 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	imP
+ * @version 	1.0.0
+ * 
+ * Created by iamParviz
+ * 
+ */
+
+.imp {
+position: fixed;
+  top: 90%;
+  left: 5%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.imp a {
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.imp a:hover {
+  opacity: .9;
+}
+
+.imp { display: none;}
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .imp { display: inline;}}
+
+
+   .mobileShow { display: none;}
+   /* Smartphone Portrait and Landscape */
+   @media only screen
+   and (min-device-width : 320px)
+   and (max-device-width : 480px){ .mobileShow { display: inline;}}
+
+   .dShow { display: none;}
+   /* Smartphone Portrait and Landscape */
+   @media only screen
+   and (min-device-width : 480px){ .dShow { display: inline;}}
+
+
+.wpcf7 p {margin-bottom:-15px;}
+.wpcf7-textarea {height:50px;}
+
+
+span.cc {
+  float: left;
+  width: 40%;
+}
+span.num {
+  float: left;
+  width: 60%;
+}
+
+.wpcf7-submit {
+ 
+width: 50%;
+}
+
+.wpcf7-submit {
+   border: #Eb483f !important;
+   background-color: #Eb483f !important;
+   color: #ffffff !important;
+   width: 100%;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px !important;
+   margin: 4px 2px !important;
+   border-radius: 15px !important;
+}
